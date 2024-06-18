@@ -1,0 +1,73 @@
+/*这里是关于同济部分的css样式*/
+
+.about-section {
+    position: relative;
+    padding: 110px 0 50px;
+}
+
+.about-block {
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.about-block .inner-box {
+    position: relative;
+    padding-right: 50px;
+}
+
+.about-block .inner-box .icon-box {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 76px;
+    height: 76px;
+    text-align: center;
+    line-height: 74px;
+    font-size: 34px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+}
+
+.about-block .inner-box .icon-box .icon {
+    color: #008ffe;
+}
+
+.about-block .inner-box h3 a {
+    position: relative;
+    font-size: 17px;
+    color: #4f4f4f;
+    font-weight: 500;
+    line-height: 1.6em;
+    padding-top: 12px;
+    padding-left: 100px;
+    display: inline-block;
+
+}
+
+.about-block .inner-box h3 a span {
+    font-weight: 700;
+}
+
+.about-block .inner-box .text {
+    font-size: 13px;
+    color: #4f4f4f;
+    margin-top: 25px;
+    line-height: 1.9em;
+}
+
+.summary-box .inner-box .summary {
+    position: relative;
+    color: #252525;
+    font-size: 72px;
+    font-weight: 500;
+    margin: 28px 0 35px;
+    text-align: center;
+    line-height: 1em;
+    font-family: 'Raleway', sans-serif
+}
+
+.sec-title {
+    position: relative;
+    margin-bottom: 40px;
+    text-align: center
+}

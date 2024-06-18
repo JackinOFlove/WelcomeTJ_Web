@@ -1,0 +1,13 @@
+/*这里是关于网页论坛的css样式*/
+
+.bbs-section {
+    position: relative;
+    padding: 110px 0 200px;
+    background-color: #008ffe
+}
+
+.bbs-form {
+    position: relative;
+    max-width: 680px;
+    margin: 0 auto
+}

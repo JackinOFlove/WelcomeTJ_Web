@@ -1,0 +1,53 @@
+/*这里是视频播放部分的css样式*/
+
+.video-section {
+    position: relative;
+    background-size: cover;
+    background: #243a51 url(../images/main-slider/4.jpg) no-repeat fixed center;
+    background-size: cover
+}
+
+.video-section .play-link {
+    position: relative;
+    display: block;
+    text-align: center;
+    left: 0;
+    top: 0;
+    font-size: 50px;
+    font-weight: 400;
+    width: 100%;
+    height: 100%;
+    color: #008ffe;
+    padding: 125px 0 115px 0;
+    background-color: rgba(255, 255, 255, 0.60);
+    transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+}
+
+.video-section .play-link .icon-box {
+    position: relative;
+    display: block;
+    width: 116px;
+    height: 116px;
+    line-height: 83px;
+    color: #008ffe;
+    border: 17px solid #008ffe;
+    padding-left: 8px;
+    margin: 0 auto 16px;
+    border-radius: 50%;
+}
+
+.video-section h3 {
+    position: relative;
+    color: #4f4f4f;
+    font-weight: 500;
+    font-size: 17px;
+
+}
+
+.video-section h3 span {
+    font-weight: 700;
+}

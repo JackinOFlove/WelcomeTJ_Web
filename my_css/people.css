@@ -1,0 +1,94 @@
+/*这里是著名院士部分的css样式*/
+
+.people-section {
+    position: relative;
+    padding: 110px 0 100px;
+    background-size: cover;
+    background: no-repeat fixed center center
+}
+
+.people-section:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: block
+}
+
+.member .inner-box:hover .image-box .overlay-box .designation:after {
+    opacity: 1
+}
+
+.member .inner-box:hover .image-box .overlay-box {
+    bottom: 0
+}
+
+.member .inner-box:hover .image-box .overlay-box {
+    bottom: 0
+}
+
+.people-section .row {
+    margin: 0 -35px
+}
+
+.people-section .member {
+    position: relative;
+    padding: 0 35px;
+    margin-bottom: 25px
+}
+
+.member .inner-box .image-box .overlay-box h4 {
+    position: relative;
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff
+}
+
+.member .inner-box .image-box .overlay-box .designation {
+    position: relative;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 2px;
+    padding-bottom: 12px
+}
+
+.member .inner-box .image-box .overlay-box .designation:after {
+    position: absolute;
+    bottom: 0;
+    content: '';
+    width: 60px;
+    height: 1px;
+    left: 50%;
+    margin-left: -30px;
+    text-align: center;
+    background-color: #fff;
+    opacity: 0
+}
+
+.member .inner-box .image-box .overlay-box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: -80%;
+    padding: 32px 25px 25px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(0, 143, 254, 0.70);
+    transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -webkit-transition: all .8s ease;
+    -ms-transition: all .8s ease;
+    -o-transition: all .8s ease
+}
+
+.member .inner-box .image-box .overlay-box .text {
+    position: relative;
+    color: #fff;
+    font-size: 13px;
+    margin-top: 16px;
+    line-height: 2.2em
+}

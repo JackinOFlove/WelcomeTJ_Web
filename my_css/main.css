@@ -1,0 +1,133 @@
+/*这里是整个网页通用的css样式*/
+
+.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+    background-color: #ffffff;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(../images/icons/preloader.gif);
+}
+
+.page-wrapper {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    min-width: 300px
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 38px;
+    text-align: center;
+    z-index: 100;
+    cursor: pointer;
+    border-radius: 50%;
+    background: #0a0a0a;
+    display: none;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.scroll-to-top:hover {
+    color: #ffffff;
+    background: #0182e7;
+}
+
+.main-header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    background: #ffffff;
+}
+
+.main-header .auto-container {
+    position: relative;
+}
+
+.auto-container {
+    position: relative;
+    position: static;
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto
+}
+
+.main-header .nav-outer {
+    position: relative;
+    float: right
+}
+
+.main-header .main-box {
+    position: relative;
+    padding: 0 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #ffffff;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.main-menu {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    transition: all 300ms ease
+}
+
+.main-slider {
+    position: relative;
+    z-index: 10;
+    padding-top: 80px;
+}
+
+.sec-title .separator {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 30px;
+    background: url(../images/icons/separator-one.png) center center no-repeat;
+}
+
+.main-slider .text {
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif
+}
+
+.footer {
+    position: relative;
+    padding: 20px 0 0;
+    background-color: #fff;
+}
+
+.footer .copyright {
+    position: relative;
+    color: black;
+    font-size: 17px;
+    margin-bottom: 20px;
+}

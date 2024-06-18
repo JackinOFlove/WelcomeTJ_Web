@@ -1,0 +1,17 @@
+/*这里是总css文件，调用bootstrap_css和my_css中的css文件*/
+
+@import url('bootstrap_css/font-awesome.css');
+@import url('bootstrap_css/animate.css');
+@import url('bootstrap_css/jquery.fancybox.css');
+@import url('bootstrap_css/jquery.mCustomScrollbar.min.css');
+@import url('bootstrap_css/revolution-slider.css');
+@import url('bootstrap_css/bootstrap.css');
+@import url('bootstrap_css/bootstrap.min.css');
+@import url('bootstrap_css/font-awesome.css');
+
+@import url('my_css/main.css');
+@import url('my_css/about.css');
+@import url('my_css/video.css');
+@import url('my_css/school.css');
+@import url('my_css/people.css');
+@import url('my_css/bbs.css');
